@@ -29,3 +29,10 @@ setTimeout(); //global client, inside node or browser
 clearTimeout();
 setInterval();
 clearInterval();
+
+window.console.log // unable to Node
+globalThis.console.log() // in node
+
+let name = "";
+
+console.log(name) => will be undefinded
